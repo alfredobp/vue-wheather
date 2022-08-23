@@ -4,9 +4,11 @@ Esta aplicación ha sido desarrollada a modo de demostración para obtener infor
 
 Características:
 
-1. Geolocalización HTMl 5
-2. COnsulta a API Metereología para obtención de datos en función de los datos de localización obtenidos en el paso 1.
-3. Geoposicionamiento mediante la libería Leafleft map del municipio.
-4. Consulta a Api de Wikipedia del municipio y obtención de la principal URL del mismo. Con el objetivo de obtener una descripción corta del mismo.
+1. Geolocalización HTML 5
+2. Consulta a API Metereología para obtención de datos en función de los datos de localización obtenidos en el paso 1.
+3. Geoposicionamiento mediante la libería Leafleft map del centroide del municipio.
+4. Consulta Api de Wikipedia del municipio y obtención de la principal URL del mismo. Con el objetivo de obtener una descripción corta del mismo.
 
 
+
+![Imagen del estado actual](https://raw.githubusercontent.com/alfredobp/vue-wheather/main/src/assets/presentation.png)
