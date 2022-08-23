@@ -1,5 +1,6 @@
 <template>
   <div>
+<hr>
     <p v-html="info.query.search[0].snippet"></p>
     <a :href="'https://es.wikipedia.org/?curid='+info.query.search[0].pageid">Ver más </a>
     </div>
@@ -16,7 +17,7 @@ export default {
     };
   },
   created() {
-    alert(this.nameCity);
+    
     this.giveInfo(this.nameCity);
   },
   methods: {
